@@ -8,9 +8,11 @@ namespace Fizzbuzz
 {
     public class Fizzbuzz
     {
-        public static int Result(int i)
+        public static T Result<T>(int i)
         {
-            return i;
+            if (i == 3)
+                return (T)(object)"Fizz";
+            return (T)(object)i;
         }
     }
 }

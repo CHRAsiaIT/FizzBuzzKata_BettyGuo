@@ -10,7 +10,7 @@ namespace Fizzbuzz
     {
         public static int Result(int i)
         {
-            return 1;
+            return i;
         }
     }
 }

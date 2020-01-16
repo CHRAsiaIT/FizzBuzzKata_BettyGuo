@@ -52,5 +52,11 @@ namespace Fizzbuzz
         {
             Assert.AreEqual("Out of range", Fizzbuzz.Result<string>(-1));
         }
+
+        [TestMethod]
+        public void TestFizzbuzzOneHundredAndOne()
+        {
+            Assert.AreEqual("Out of range", Fizzbuzz.Result<string>(101));
+        }
     }
 }

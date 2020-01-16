@@ -10,7 +10,7 @@ namespace Fizzbuzz
     {
         public static T Result<T>(int i)
         {
-            if (i < 1)
+            if (i < 1 || i > 100)
                 return (T)(object)"Out of range";
             if (i % 3 == 0 && i % 5 == 0)
                 return (T)(object)"Fizzbuzz";

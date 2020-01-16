@@ -12,6 +12,8 @@ namespace Fizzbuzz
         {
             if (i == 3)
                 return (T)(object)"Fizz";
+            if (i == 5)
+                return (T)(object)"Buzz";
             return (T)(object)i;
         }
     }

@@ -10,9 +10,9 @@ namespace Fizzbuzz
     {
         public static T Result<T>(int i)
         {
-            if (i % 3 == 0)
+            if (i%3 == 0)
                 return (T)(object)"Fizz";
-            if (i == 5)
+            if (i%5 == 0)
                 return (T)(object)"Buzz";
             return (T)(object)i;
         }
